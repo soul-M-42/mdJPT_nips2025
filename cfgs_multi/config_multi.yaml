@@ -1,12 +1,12 @@
 
 defaults:
   - _self_
-  - data@data_0: SEED
-  - data@data_1: None
-  - data@data_2: None
-  - data@data_3: None
-  - data@data_4: None
-  - data@data_val: SEEDV
+  - data@data_0: SEED # dataset 0 used in pretrain
+  - data@data_1: None # dataset 1 used in pretrain
+  - data@data_2: None # dataset 2 used in pretrain
+  - data@data_3: None # dataset 3 used in pretrain
+  - data@data_4: None # dataset 4 used in pretrain
+  - data@data_val: SEEDV # dataset used for validation (emotion classification)
 
 # all available dataset:
 #   - SEED
